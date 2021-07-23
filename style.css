@@ -1,7 +1,17 @@
-body {
-    background-color: #1c1b22;
-    color: white;
-    font-family: 'Fira Code';
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1b22;
+        color: white;
+        font-family: 'Fira Code';
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: #1c1b22;
+        font-family: 'Fira Code';
+    }
 }
 
 #number {
