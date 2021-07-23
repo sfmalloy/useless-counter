@@ -1,7 +1,7 @@
 isSpacePressed = false;
 isCtrlPressed = false;
 
-window.onload = function() { 
+window.onload = () => { 
     setCountVisibility(false);
     document.addEventListener("keydown", event => {
         if (document.getElementById("setCount").style.display === "none") {
