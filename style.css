@@ -1,0 +1,57 @@
+body {
+    background-color: #1c1b22;
+    color: white;
+    font-family: 'Fira Code';
+}
+
+#number {
+    font-size: 64pt;
+}
+
+#elems {
+    padding-bottom: 0;
+    text-align: center;
+}
+
+#setCount {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    font-size: 20pt;
+    padding-top: 2%;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: auto;
+}
+
+input {
+    font-size: 20pt;
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32pt;
+    margin: 0;
+}
+
+button {
+    font-size: 20pt;
+    font-family: 'Fira Code', monospace;
+    margin: 10px auto;
+    width: 200px;
+}
+
+p {
+    font-size: 20pt;
+    margin: 0;
+}
